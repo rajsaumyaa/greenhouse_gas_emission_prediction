@@ -81,17 +81,18 @@ Make sure you have the following installed:
    
 2. **Prepare the Dataset**
 
-Ensure the Excel file named SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx is placed in the project root directory.
+--Ensure the Excel file named SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx is placed in the project root directory.
 
-This file should contain all relevant yearly sheets (e.g., 2010_Detail_Commodity, 2010_Detail_Industry, etc.).
+     This file should contain all relevant yearly sheets (e.g., 2010_Detail_Commodity, 2010_Detail_Industry, etc.).
 
 3. **Launch Jupyter Notebook**
 
-Open the notebook in your browser:
+ --Open the notebook in your browser:
 
-jupyter notebook GHG_Analysis_and_prediction.ipynb
+    jupyter notebook GHG_Analysis_and_prediction.ipynb
 
 **Week-1 TASK**
+
 ● Studied and understood dataset structure
 
 ● Cleaned and combined data from multiple Excel sheets (Commodity & Industry)
@@ -102,6 +103,7 @@ jupyter notebook GHG_Analysis_and_prediction.ipynb
 🙋‍♀️ Author
 
 Saumya Raj
+
 https://github.com/rajsaumyaa
 
 
