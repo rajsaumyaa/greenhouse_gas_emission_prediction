@@ -22,6 +22,8 @@ greenhouse_gas_emission_prediction/
 ├── GHG_Analysis_and_prediction.ipynb # Main notebook (data analysis and ML)
   
    ├── README.md # Project documentation
+   
+   ├── SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx # dataset
 
 
 ---
@@ -59,31 +61,49 @@ https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-fo
 
 ## 🚀 Getting Started
 
-### Prerequisites
+## ⚙️ How to Run the Project
 
-Make sure you have Python ≥ 3.7 and Jupyter Notebook installed.
+### 📁 Prerequisites
 
-### Installation
+Make sure you have the following installed:
 
-```bash
-# Clone the repository
-git clone https://github.com/rajsaumyaa/greenhouse_gas_emission_prediction.git
-cd greenhouse_gas_emission_prediction
+- Python ≥ 3.7
+- Jupyter Notebook (via Anaconda or pip)
+- Required Python libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `joblib`)
 
-# Create a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+### 🚀 Steps to Execute
 
-# Install dependencies
-pip install -r requirements.txt
+1. **Clone the Repository**
 
-# Run the notebook
+   ```bash
+   git clone https://github.com/rajsaumyaa/greenhouse_gas_emission_prediction.git
+   cd greenhouse_gas_emission_prediction
+   
+2. **Prepare the Dataset**
+
+Ensure the Excel file named SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx is placed in the project root directory.
+
+This file should contain all relevant yearly sheets (e.g., 2010_Detail_Commodity, 2010_Detail_Industry, etc.).
+
+3. **Launch Jupyter Notebook**
+
+Open the notebook in your browser:
+
 jupyter notebook GHG_Analysis_and_prediction.ipynb
 
-```
+**Week-1 TASK**
+● Studied and understood dataset structure
+
+● Cleaned and combined data from multiple Excel sheets (Commodity & Industry)
+
+● Prepared a single, structured DataFrame for analysis and modeling
+
+
 🙋‍♀️ Author
 
 Saumya Raj
+https://github.com/rajsaumyaa
+
 
 Let’s predict for a greener future 🌱
 
