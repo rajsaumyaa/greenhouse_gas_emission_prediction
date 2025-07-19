@@ -18,8 +18,10 @@ This project focuses on **predicting greenhouse gas (GHG) emissions** related to
 ## 📁 Repository Structure
 
 greenhouse_gas_emission_prediction/
+
 ├── GHG_Analysis_and_prediction.ipynb # Main notebook (data analysis and ML)
-├── README.md # Project documentation
+  
+   ├── README.md # Project documentation
 
 
 ---
@@ -80,6 +82,7 @@ jupyter notebook GHG_Analysis_and_prediction.ipynb
 
 ```
 🙋‍♀️ Author
+
 Saumya Raj
 
 Let’s predict for a greener future 🌱
