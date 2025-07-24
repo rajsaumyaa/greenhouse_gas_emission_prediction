@@ -19,11 +19,13 @@ This project focuses on **predicting greenhouse gas (GHG) emissions** related to
 
 greenhouse_gas_emission_prediction/
 
-├── GHG_Analysis_and_prediction.ipynb # Main notebook (data analysis and ML)
+├── ghg.ipynb # Main notebook (data analysis and ML)
   
    ├── README.md # Project documentation
    
    ├── SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx # dataset
+
+   ├── scaler.pkl #pickle file
 
 
 ---
@@ -89,7 +91,7 @@ Make sure you have the following installed:
 
  --Open the notebook in your browser:
 
-    jupyter notebook GHG_Analysis_and_prediction.ipynb
+    jupyter notebook ghg.ipynb
 
 **Week-1 TASK**
 
@@ -99,6 +101,20 @@ Make sure you have the following installed:
 
 ● Prepared a single, structured DataFrame for analysis and modeling
 
+**Week-2 TASK**
+
+### ✅ Key Work Done:
+- Trained a `RandomForestRegressor` using supply chain data.
+- Tuned hyperparameters with `GridSearchCV` (3-fold CV).
+- Evaluated the model using RMSE and R² on the test set.
+- Saved the best model (`final_model.pkl`) and scaler (`scaler.pkl`) in the `dtw/` folder using `joblib`.
+
+### 📁 Output Files:
+- `dtw/final_model.pkl` – Trained model
+- `dtw/scaler.pkl` – Data scaler
+
+### 🔧 Tools:
+Python, scikit-learn, joblib, Jupyter
 
 🙋‍♀️ Author
 
