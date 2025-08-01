@@ -113,6 +113,23 @@ Make sure you have the following installed:
 - `dtw/final_model.pkl` – Trained model
 - `dtw/scaler.pkl` – Data scaler
 
+**Week 3: Finalization, Documentation & Presentation**
+✅ Tasks Completed
+- Created a PowerPoint presentation summarizing the entire project
+- Structured and added key points: approach, methodology, model choice, and insights
+- Justified the use of Random Forest Regressor over other models
+- Refined content for clear and impactful delivery during project review
+
+💡 Insights Gained
+- Learned how to present machine learning projects effectively
+- Developed skills to communicate technical decisions and insights clearly
+- Understood how to align model results with real-world environmental impact
+
+🔮 Future Scope
+- Add more recent data (post-2016) to improve prediction scope
+- Develop a Streamlit or Flask-based UI for interactive usage
+- Integrate with sustainability policy frameworks or industry tools
+
 ### 🔧 Tools:
 Python, scikit-learn, joblib, Jupyter
 
