@@ -114,6 +114,7 @@ Make sure you have the following installed:
 - `dtw/scaler.pkl` – Data scaler
 
 **Week 3: Finalization, Documentation & Presentation**
+
 ✅ Tasks Completed
 - Created a PowerPoint presentation summarizing the entire project
 - Structured and added key points: approach, methodology, model choice, and insights
